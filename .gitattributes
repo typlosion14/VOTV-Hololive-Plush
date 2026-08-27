@@ -1,0 +1,7 @@
+* text=auto
+
+# Assets Unreal : binaires, jamais de diff/merge ni de conversion de fins de ligne
+*.uasset binary
+*.umap   binary
+*.upk    binary
+*.udk    binary

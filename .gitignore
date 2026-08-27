@@ -1,0 +1,28 @@
+# =============================================================
+#  Projet Unreal VotV - depot du mod StatsPills
+#  Whitelist stricte : tout est ignore, seul le mod est versionne.
+# =============================================================
+
+# Tout ignorer a la racine (Binaries, Build, Config, DerivedDataCache,
+# Intermediate, output, Plugins, Saved, Script, ...)
+/*
+
+# --- Fichiers du depot ---
+!.gitignore
+!.gitattributes
+!README.md
+
+# --- Fichier projet Unreal (necessaire pour ouvrir le projet) ---
+!VotV.uproject
+
+# --- Seul Content/Mods est versionne ---
+!Content/
+Content/*
+!Content/Mods/
+
+# --- Rebuts Unreal / OS pouvant apparaitre dans Mods ---
+Content/Mods/**/*.tmp
+Content/Mods/**/*.autosave
+Content/Mods/**/*_BuiltData.uasset
+**/Thumbs.db
+**/.DS_Store
