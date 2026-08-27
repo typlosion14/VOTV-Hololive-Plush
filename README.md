@@ -22,15 +22,32 @@ Doses are **persistent** — they are written to the save file (`Bp_PillSave`, k
 `hungerPillTaken` / `sleepPillTaken`) and re-applied on load by `ModActor`, so the bonus survives
 quitting the game.
 
-## Requirements
+## Installation (players)
 
-- Voices of the Void **a09n**
+1. Voices of the Void **a09n**.
+2. Install **Fusion** by *NynrahGhost* — required, the mod will not load without it.
+3. Drop the mod's `.pak` file into:
+
+   ```
+   <VotV install>/VotV/Content/Paks/LogicMods/
+   ```
+
+   Create the `LogicMods` folder if it does not exist yet.
+4. Launch the game — the two pills appear in the shop at 350 points each.
+
+## Setup (reusing this project in Unreal)
+
+This section is only needed if you want to **open, modify or rebuild the mod** in the Unreal
+Editor. Players do not need any of it.
+
+### Requirements
+
 - **ghostMapping** — [modestimpala/VotV_ghostmap](https://github.com/modestimpala/VotV_ghostmap),
   the recreated VotV asset library used for ghost-referencing (GUID-matched structs, interfaces
   and materials). It is required to open and build this mod, since the blueprints reference the
   game's own assets and datatables.
 
-## Setup
+### Steps
 
 1. Get the ghostmapping (Unreal Editor **closed**):
 
@@ -53,7 +70,8 @@ quitting the game.
          StatsPills/   <- this repo
    ```
 
-3. Open the project in the Unreal Editor and package the mod through its `PrimaryAssetLabel`.
+3. Open the project in the Unreal Editor and package the mod through its `PrimaryAssetLabel`,
+   then install the resulting `.pak` as described above.
 
 ## Contents
 
