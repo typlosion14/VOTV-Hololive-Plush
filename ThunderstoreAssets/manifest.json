@@ -1,7 +1,7 @@
 {
 	"name": "HololivePlush",
 	"description": "Adds a collection of 36 Hololive-themed plushies to collect, obtainable from a Random Hololive Plush Bag sold in the shop.",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"dependencies": ["NynrahGhost-Fusion-0.8108.3"],
 	"website_url": "https://github.com/typlosion14/VOTV-Hololive-Plush"
 }

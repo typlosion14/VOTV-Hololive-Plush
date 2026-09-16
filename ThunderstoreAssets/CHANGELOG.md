@@ -1,3 +1,6 @@
+# 1.0.1
+Fix: Price of **Random Hololive Plush Bag** set to 100 (was 0)
+
 # 1.0.0
 First release: adds the **Random Hololive Plush Bag** to the shop and a collection of 36
 Hololive-themed plushies to collect.
