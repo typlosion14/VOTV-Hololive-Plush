@@ -14,11 +14,16 @@
 
 # --- Fichier projet Unreal (necessaire pour ouvrir le projet) ---
 !VotV.uproject
+!Config/
+
+# --- Assets Thunderstore (packaging du mod) ---
+!ThunderstoreAssets/
 
 # --- Seul Content/Mods est versionne ---
 !Content/
 Content/*
 !Content/Mods/
+Content/Mods/StatsPills
 
 # --- Rebuts Unreal / OS pouvant apparaitre dans Mods ---
 Content/Mods/**/*.tmp
